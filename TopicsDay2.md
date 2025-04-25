@@ -427,4 +427,4 @@ Ese 7 se guarda en la variable resultado.
 
 Luego lo imprimes.
 
-_Esta página está en construcción_
+_Esta página está en construcción..._
