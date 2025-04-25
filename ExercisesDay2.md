@@ -24,7 +24,7 @@ Usos comunes de las listas:
 
     Iteración: Puedes recorrer las listas usando bucles, lo que facilita la manipulación de grandes cantidades de datos.
 
-## ¿Porqué la cracipon de listas en python es con corchetes?
+## ¿Porqué la creación de listas en python es con corchetes?
 
 La elección de corchetes ([]) para crear listas en Python tiene que ver con el diseño del lenguaje y la forma en que se quiere distinguir entre diferentes tipos de estructuras de datos. 
 
@@ -360,4 +360,69 @@ Puedes definir funciones con la palabra clave def, y estas pueden recibir parám
 
 Las funciones permiten modularizar y organizar el código, haciendo que sea más fácil de mantener y reutilizar.
 
-## 
+### ¿Por qué se definen funciones con def?
+
+#### ¿Qué hace def?
+
+Le dice a Python: “Estoy creando una función”.
+
+Después de def, se pone el nombre de la función.
+
+Luego vienen los paréntesis (donde van los parámetros, si los hay).
+
+Y por último, dos puntos : para indicar que empieza el bloque de código de la función.
+
+### ¿Qué es llamar(usar) funciones?
+
+Llamar una función significa usar una función que ya definiste (o que ya existe).
+
+Ejemplo básico:
+
+Primero definimos una función:
+
+    def saludar():
+    print("Hola, ¿cómo estás?")
+Aquí no se ejecuta la función todavía, solo la creamos.
+
+Ahora vamos a llamarla (usarla):
+
+    saludar()
+Cuando escribes saludar():
+
+Python busca esa función.
+
+Ejecuta el código que tiene dentro (print("Hola, ¿cómo estás?")).
+
+### ¿Qué son los parámetros y argumentos de una función?
+
+Los parámetros son variables que defines dentro de los paréntesis al crear una función. Sirven como entrada para que la función pueda trabajar con diferentes valores.
+
+    def saludar(nombre):  # <-- "nombre" es un parámetro
+    print("Hola", nombre)
+
+Los argumentos son los valores reales que pasas a la función cuando la llamas.
+
+    saludar("Ana")  # <-- "Ana" es un argumento
+
+#### ¿Por qué es útil?
+
+Los parámetros hacen que las funciones sean flexibles. En lugar de hacer una función para cada caso, puedes pasarle diferentes argumentos y reutilizar el mismo código.
+
+### ¿Qué es el retorno de una función 'return'?
+
+El return sirve para que una función devuelva un resultado que puedas usar después. No solo hace algo (como imprimir), sino que te da un valor de vuelta.
+
+    def sumar(a, b):
+    return a + b
+Aquí la función devuelve el resultado de la suma.
+Pero nada se imprime en pantalla todavía.
+
+Ejemplo:
+       
+    resultado = sumar(3, 4)
+    print("La suma es:", resultado)
+    sumar(3, 4) devuelve 7.
+
+Ese 7 se guarda en la variable resultado.
+
+Luego lo imprimes.
