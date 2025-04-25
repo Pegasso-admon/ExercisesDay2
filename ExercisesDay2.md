@@ -359,3 +359,5 @@ Las funciones en Python son bloques de código reutilizables que realizan tareas
 Puedes definir funciones con la palabra clave def, y estas pueden recibir parámetros y devolver resultados con return.
 
 Las funciones permiten modularizar y organizar el código, haciendo que sea más fácil de mantener y reutilizar.
+
+## 
